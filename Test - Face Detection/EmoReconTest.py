@@ -6,14 +6,14 @@ face_cascade = cv2.CascadeClassifier('D:\School - UWaterloo\OpenCV\opencv\data\h
 cap = cv2.VideoCapture(0)
 
 while True:
-    ret,frame = cap.read()
-    result = DeepFace.analyze(img_path= frame, actions=['emotion'], enforce_detection= False)
+    ret, frame = cap.read()
+    result = DeepFace.analyze(img_path = "HappyFaceTest.jpg", actions=['age', 'gender', 'race', 'emotion'])
 
-    gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     faces = face_cascade.detectMultiscale(gray, 1.1, 4)
 
-    for(x,y,w,h) in faces:
+    for(x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 3)
 
     emotion = result['dominant_emotion']
