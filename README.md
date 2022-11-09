@@ -14,3 +14,10 @@ The emolock is an emotion-controlled lock system in Python and C, which allows a
 
 Resources: 
 https://docs.opencv.org/4.x/df/d65/tutorial_table_of_content_introduction.html
+
+## Process Work
+-------------------
+<img src="https://user-images.githubusercontent.com/102741009/200718176-13a8ccd6-4e21-40bc-a768-6a409fd7a49f.jpg" width="180px">
+<img src="https://user-images.githubusercontent.com/102741009/200718519-be6a0631-080b-4c8b-beeb-90a6e1019f2c.jpg" width="180px">
+<img src="https://user-images.githubusercontent.com/102741009/200718527-df1e453b-11db-4d28-86d1-84e80daf1952.jpg" width="180px">
+<img src="https://user-images.githubusercontent.com/102741009/200718533-f8fb97d8-4ca5-4edd-a1f9-db742375c6b6.jpg" width="180px">
