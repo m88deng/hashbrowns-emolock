@@ -35,7 +35,7 @@ def detect4emotionstostr():
         gray2 = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
         gray3 = cv2.cvtColor(frame3, cv2.COLOR_BGR2GRAY)
         gray4 = cv2.cvtColor(frame4, cv2.COLOR_BGR2GRAY)
-        # changing the video to grayscale to make the face analisis work properly
+        # changing the video to grayscale to make the face analysis work properly
         face = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
         face2 = face_cascade.detectMultiScale(gray2, scaleFactor=1.1, minNeighbors=5)
         face3 = face_cascade.detectMultiScale(gray3, scaleFactor=1.1, minNeighbors=5)
