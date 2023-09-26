@@ -133,6 +133,8 @@ def detect4emotionstostr():
         except:
             print("no face")
 
+        #Sets the dominant emotion to each variable (as a number) for password checking ^^
+        
             # PLS VERIFY, CHANGING HERE FOR TEST should be 1 2 3 4
         EmoPassList = [emo1, emo2, emo3, emo4]
 
